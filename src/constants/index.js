@@ -1,9 +1,10 @@
 export const navLinks = [
-    { href: "#Accueil", label: "Accueil" },
-    { href: "#A propos", label: "A propos" },
-    { href: "#Service", label: "Service" },
-    { href: "#Contact", label: "Contact" },
-];
+    { href: "/", label: "Accueil" },
+    { href: "#apropos", label: "A propos" }, // Utiliser l'ancre car sur la même page
+    { href: "/services", label: "Service" }, // Utiliser la route /services pour naviguer vers la page des services
+    { href: "#contact", label: "Contact" }, // Utiliser l'ancre car sur la même page
+  ];
+  
 export const Service = [
     { label: "comptabilité" },
     { label: "fiscalité" },
