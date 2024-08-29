@@ -9,17 +9,15 @@ const Nav = () => {
           <img
             src={logo_transparent}
             alt="logo"
-            width={150}
-            height={60}
-            className="w-[150px] h-[75px] sm:w-[200px] sm:h-[100px] transition-all ml-4 sm:ml-7"
+            className="w-[100px] h-[50px] sm:w-[150px] sm:h-[75px] md:w-[200px] md:h-[100px] transition-all ml-4"
           />
         </a>
-        <ul className="flex flex-wrap gap-4 sm:gap-8 md:gap-16 px-4 md:px-36 py-4 sm:py-6 md:py-12 text-white font-bold">
+        <ul className="flex flex-wrap gap-4 sm:gap-8 md:gap-16 px-2 py-4 text-white font-bold">
           {navLinks.map((item) => (
             <li key={item.label}>
               <a
                 href={item.href}
-                className="leading-normal text-sm sm:text-lg font-bold font-poppins hover:text-bluebg hover:underline hover:text-md">
+                className="leading-normal text-xs sm:text-sm md:text-lg font-bold font-poppins hover:text-bluebg hover:underline hover:text-md">
                 {item.label}
               </a>
             </li>
