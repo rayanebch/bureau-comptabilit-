@@ -12,7 +12,7 @@ const Page2 = () => {
           Qui sommes-nous ?
         </p>
         <p className="text-sm md:text-lg lg:text-xl transition-transform duration-500 hover:scale-105">
-          FT Consulting est un cabinet d’expertise-comptable basé à Alger. Nous fournissons des services de comptabilité, de gestion de la paie et de conseil fiscal à un portefeuille de clients étrangers et nationaux. Notre cabinet mobilise une équipe de professionnels pour vous accompagner tout au long de la vie de votre entreprise.
+        Bureau Bediaf Conseil et Comptabilité est un cabinet basé à Alger, Hussein Dey, spécialisé dans la comptabilité, la fiscalité, et l'expertise judiciaire. Avec plus de 32 ans d'expérience, nous accompagnons nos clients dans toutes les phases de développement de leur entreprise, en leur offrant des services de qualité et des conseils personnalisés.
         </p>
       </div>
       <img

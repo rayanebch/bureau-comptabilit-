@@ -5,10 +5,10 @@ const Page1 = () => {
   return (
     <div id="Accueil" className='bg-bg1 bg-cover w-full h-[100vh] flex flex-col justify-center items-center gap-6 sm:gap-8 md:gap-12 p-4 text-center'>
       <p className='text-white text-2xl sm:text-4xl md:text-5xl font-bold transition-transform transform hover:scale-105 ease-in-out duration-300'>
-        BH Consulting,<br />cabinet d’expertise comptable <br />et de conseil fiscal
+      Cabinet Bediaf Expertise,<br />bureau de comptabilité, fiscalité <br />et expert judiciaire
       </p>
       <p className='text-white text-lg sm:text-2xl md:text-4xl font-thin transition-transform transform hover:scale-105 ease-in-out duration-300'>
-        Fort d’une expertise de plus de 20 années, nous sommes un cabinet d’expertise <br /> comptable, de conseil fiscal et de commissariat aux comptes, basé à Alger.
+      Fort de plus de 32 ans d'expérience, nous sommes un bureau de comptabilité,<br /> de fiscalité et d'expertise judiciaire basé à Alger, Hussein Dey.
       </p>
       <a href="#apropos">
         <img 
